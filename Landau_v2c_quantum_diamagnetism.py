@@ -10,9 +10,9 @@ import numpy as np
 
 
 
-# DEFAULT = "/Users/4c/Desktop/GHQ/data/loto7_4698_k80.csv"
-# DEFAULT = "/Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_2971.csv"
-DEFAULT = "/Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_plus_1727.csv"
+DEFAULT = "/data/loto7_4698_k80.csv"
+# DEFAULT = "/data/loto7_4698_k80_loto_2971.csv"
+# DEFAULT = "/data/loto7_4698_k80_loto_plus_1727.csv"
 
 
 
@@ -447,39 +447,39 @@ if __name__ == "__main__":
 
 
 """
-Ulaz: /Users/4c/Desktop/GHQ/data/loto7_4698_k80.csv; redova=4698
+Ulaz: /data/loto7_4698_k80.csv; redova=4698
 Validacija: redovi 4587..4634; alpha=10; prosek=1.2083
 Test: redovi 4635..4698
 LANDAU DIAMAGNETISM V2c: prosek=1.5156; pogodaka 0..7=[9, 24, 22, 7, 2, 0, 0, 0]
 Prethodna kombinacija: prosek=1.2188; pogodaka 0..7=[13, 30, 16, 4, 1, 0, 0, 0]
 Poslednji red: 4,12,18,28,35,36,37
-SLEDECI RED 4699: 8,11,18,23,26,31,35
+SLEDECI RED 4699: 8,x,18,y,26,z,35
 Trosak projekcije=1.3394883044; globalni minimum potvrden.
 Svojstvene vrednosti odziva lag=1: -0.288183,-0.239515,-0.234712,-0.183808,-0.157909,-0.110986,-0.087813
 Smer odziva naucen je iz podataka; trosak nije verovatnoca.
 
 
 
-Ulaz: /Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_2971.csv; redova=2971
+Ulaz: /data/loto7_4698_k80_loto_2971.csv; redova=2971
 Validacija: redovi 2860..2907; alpha=1; prosek=1.3750
 Test: redovi 2908..2971
 LANDAU DIAMAGNETISM V2c: prosek=1.4375; pogodaka 0..7=[7, 31, 18, 7, 1, 0, 0, 0]
 Prethodna kombinacija: prosek=1.2969; pogodaka 0..7=[11, 30, 16, 7, 0, 0, 0, 0]
 Poslednji red: 18,20,21,24,29,34,38
-SLEDECI RED 2972: 7,12,15,19,28,33,38
+SLEDECI RED 2972: 7,x,15,y,28,z,38
 Trosak projekcije=1.2824856940; globalni minimum potvrden.
 Svojstvene vrednosti odziva lag=1: -0.290855,-0.252436,-0.209174,-0.194844,-0.150940,-0.145237,-0.103530
 Smer odziva naucen je iz podataka; trosak nije verovatnoca.
 
 
 
-Ulaz: /Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_plus_1727.csv; redova=1727
+Ulaz: /data/loto7_4698_k80_loto_plus_1727.csv; redova=1727
 Validacija: redovi 1616..1663; alpha=1; prosek=1.1458
 Test: redovi 1664..1727
 LANDAU DIAMAGNETISM V2c: prosek=1.1719; pogodaka 0..7=[13, 33, 13, 4, 1, 0, 0, 0]
 Prethodna kombinacija: prosek=1.2969; pogodaka 0..7=[15, 23, 18, 8, 0, 0, 0, 0]
 Poslednji red: 4,12,18,28,35,36,37
-SLEDECI RED 1728: 6,11,17,21,28,31,37
+SLEDECI RED 1728: 6,x,17,y,28,z,37
 Trosak projekcije=1.1864537873; globalni minimum potvrden.
 Svojstvene vrednosti odziva lag=1: -0.312325,-0.236433,-0.224236,-0.193152,-0.160529,-0.141809,-0.105810
 Smer odziva naucen je iz podataka; trosak nije verovatnoca.
